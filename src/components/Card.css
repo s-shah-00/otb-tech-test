@@ -1,0 +1,74 @@
+.card {
+  background-color: #fff;
+  margin: 2.5rem 2.5rem 0;
+}
+
+.card__main {
+  display: flex;
+  flex-wrap: wrap-reverse;
+}
+
+.card__image {
+  flex: 0 1 auto;
+  position: relative;
+}
+
+.card__body {
+  flex: 1;
+  padding: 1.5em 1.5em 0;
+  background-color: #fff;
+}
+
+.card__title {
+  color: #17317f;
+  font-size: 1em;
+  margin: 0;
+}
+
+.card__subtitle {
+  color: #868686;
+  font-size: 0.9em;
+  margin: 0.5em 0;
+}
+
+.card__rating-icon {
+  color: #fedc07;
+  margin: 0.25em 0.2em 0.25em 0;
+}
+
+.card__copy {
+  margin: 0.5em 0;
+}
+
+.card__read-more {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+
+  background-color: #fff;
+  color: #17317f;
+  border: none;
+  cursor: pointer;
+  outline: inherit;
+
+  height: 2em;
+  line-height: 2em;
+  text-align: center;
+  width: 16em;
+}
+
+.card__read-more-icon {
+  font-size: 1.4em;
+  position: relative;
+  top: 0.1em;
+  left: 0.5em;
+}
+
+.card__description {
+  padding: 0.5em 1.5em 1em;
+}
+
+.card__description-title {
+  color: #17317f;
+  font-size: 0.9em;
+}

@@ -1,0 +1,21 @@
+.btn {
+  cursor: pointer;
+  margin: 0.5em 0;
+  padding: 0.5em;
+  display: inline-block;
+  line-height: 1.5;
+  text-align: center;
+  text-decoration: none;
+  vertical-align: middle;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+  border: 1px solid transparent;
+  border-radius: 0.25rem;
+}
+
+.btn--yellow {
+  color: #17317f;
+  background-color: #fedc07;
+}

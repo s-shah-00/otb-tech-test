@@ -1,0 +1,37 @@
+.sort-item {
+  background-color: #fff;
+}
+
+.sort-item__radio {
+  display: none;
+}
+
+.sort-item__radio:checked + .sort-item__title,
+.sort-item__radio:checked ~ .sort-item__icon {
+  background-color: #17317f;
+  border-bottom-color: #17317f;
+  color: #fff;
+}
+
+.sort-item__label {
+  color: #17317f;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+}
+
+.sort-item__title {
+  flex: 1;
+  padding: 1em;
+}
+
+.sort-item__icon {
+  color: #999;
+  padding: 1em;
+  text-align: center;
+  width: 18px;
+}
+
+.sort-item__separator {
+  border-bottom: #8c99c0 solid 2px;
+}
